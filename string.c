@@ -3,6 +3,11 @@
 
 int main(){
 
+   char* strs = "strs";
+
+   printf("%c\n",*strs);//如果是%s 会有问题
+
+
 
     char* charp[] = { "ss","ccccc" };
 
