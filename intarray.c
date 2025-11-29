@@ -2,6 +2,11 @@
 
 int main(void){
 
+
+   int i = 1801/1000;
+
+   printf("1001/1000:%d",i);
+
    int zippo[4][2]= { {2,4} , {6,8} , {1,3}, {5,7}  };
 
     printf(" zippo = %x, zippo+1 = %x \n", zippo,zippo+1);

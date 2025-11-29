@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
+
+struct sametype {
+    int i,
+    *j;
+};
+
+
 int main(){
  
     struct s
@@ -18,6 +25,8 @@ int main(){
     
     printf("sizeof(s) = %zu\n",sizeof(s)); //8
     printf("sizeof(*s) = %zu\n",sizeof(*s)); //4
+
+
 
 
     struct key { 
